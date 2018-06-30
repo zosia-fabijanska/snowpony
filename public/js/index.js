@@ -32,7 +32,7 @@ $(document).ready(() => {
     sr.reveal('.scroll-reveal', {
         distance: '100px',
         duration: 800,
-        delay: 500,
+        delay: 300,
         scale: 1,
     });
 });
