@@ -1,0 +1,19 @@
+.nav-wrapper {
+    font-family: $archivo;
+    background-color: $white;
+
+    .nav-padd {
+        padding: 32px 12px;
+    }
+    
+    .nav-style {
+        font-family: $archivo;
+        color: $main-txt-color;
+        cursor: pointer;
+    }
+    .collapse-wrapper {
+        max-width: 800px;
+    }
+}
+
+
