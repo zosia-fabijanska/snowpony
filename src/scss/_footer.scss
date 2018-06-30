@@ -6,7 +6,7 @@
         color: #ccc;
         font-family: $archivo;
         font-size: $main-txt;
-        line-height: 12px;
+        line-height: 14px;
     }
 
     img {
@@ -17,6 +17,7 @@
     .footer-credit {
         margin-top: 32px;
         a {
+            line-height: 20px;
             color: $light-grey;
             &:hover {
                 text-decoration: none;
