@@ -3,33 +3,20 @@
     height: 80vh;
     max-height: 650px;
     max-width: 100%;
-    background-attachment: scroll;      
+    background-attachment: scroll;
     background-position: center;
     background-size: cover;
     background-repeat: none;
     position: relative;
     overflow: hidden;
-    @media screen and (min-width:$screen-sm) {
-        background-attachment: fixed;  
+    @media screen and (min-width: $screen-sm) {
+        background-attachment: fixed;
     }
 
     .header-title {
         margin-top: 15%;
-        h1 {
-            font-size: 2rem;
-            padding:0 16px;
-            opacity: 0.92;
-            background-color: $white;
-            max-width: fit-content;
-            font-family: $archivo;
-            color: $main-txt-color;
-            font-weight: 600;
-            letter-spacing: 11.29px;
-            margin: 0;
-            @media screen and (min-width:$screen-sm) {
-                font-size: $lg-txt;  
-            }
-        }
     }
 
+
 }
+
