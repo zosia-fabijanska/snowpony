@@ -16,7 +16,7 @@
         color: $main-txt-color !important;
         cursor: pointer;
         &:hover {
-            color:$light-grey;
+            color:$light-grey !important;
         }
     }
     .collapse-wrapper {

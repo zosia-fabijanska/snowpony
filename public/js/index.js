@@ -9,7 +9,7 @@ $(document).ready(() => {
             {
                 scrollTop: $(section).offset().top
             },
-            800
+            800,
         );
     };
 
