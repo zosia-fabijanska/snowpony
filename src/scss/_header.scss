@@ -1,6 +1,6 @@
 .header-section {
-    background-image: url('../assets/sp-header.jpg');
-    height: 80vh;
+    background-image: url('../assets/sp-header.png');
+    height: 40vh;
     max-height: 650px;
     max-width: 100%;
     background-attachment: scroll;
@@ -10,7 +10,14 @@
     position: relative;
     overflow: hidden;
     @media screen and (min-width: $screen-sm) {
+        height: 80vh;
         background-attachment: fixed;
+    }
+    span {
+        display:none;
+        @media screen and (min-width: $screen-sm) {
+            display: inline-flex;
+        }
     }
 
     .header-title {

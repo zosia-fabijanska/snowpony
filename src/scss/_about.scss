@@ -1,16 +1,17 @@
 .about-us-header {
-    background-image: url('../assets/sp-header.jpg');
-    height: 60vh;
+    background-image: url('../assets/about-header.png');
+    height: 40vh;
     max-height: 500px;
     max-width: 100%;
-    background-attachment: scroll;      
+    background-attachment: scroll;
     background-position: center;
-    background-size: cover;
+    background-size: auto cover;
     background-repeat: none;
     position: relative;
     overflow: hidden;
     @media screen and (min-width:$screen-sm) {
         background-attachment: fixed;  
+        height: 60vh;
     }
 
     .about-title {
